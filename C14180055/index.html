@@ -1,8 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <body>
     <h1>C14180055 - Gabriela Consuelo </h1>
+<<<<<<< HEAD
     <h1>JARKOM </h1>
     <h1>Membuat game / SI berbasis web </h1>
+=======
+<<<<<<< HEAD
+    <H2>Masukkan Tanggal 1</H2>
+    <input type="date" id="D1">   
+    <br>
+    <H2>Masukkan Tanggal 2</H2>   
+    <input type="date" id="D2">     
+    <br>
+    <br>
+    <button onclick="DDiff()">CLICK</button>   
+    <h2 style="color:red" id="hasil"></h2>
+    
+        <script>
+            function DDiff() {
+              var date1 = document.getElementById("D1").value;  
+              var date2 = document.getElementById("D2").value;  
+              var d1 = new Date(date1);  
+              var d2 = new Date(date2);  
+              var t_diff = d2.getTime() - d1.getTime();  
+              var hasil = t_diff / (1000 * 60 * 60 * 24);  
+
+              return document.getElementById("hasil").innerHTML =    
+              " SELISIHNYA : " + hasil;  
+            }
+        </script>
+
+=======
+    <h1>TAMBAHKAN 2 BUAH (?)</h1>
+>>>>>>> F
+>>>>>>> G
 </body>
 </html>
